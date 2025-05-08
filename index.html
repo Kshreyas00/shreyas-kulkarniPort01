@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreyas Kulkarni - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="portfolio-container">
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header>
+                <div class="logo">
+                    <h1>Shreyas <span>Kulkarni</span></h1>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </header>
+
+            <div class="hero-section">
+                <div class="profile-info">
+                    <h2>Full Stack Developer</h2>
+                    <p>Building creative web solutions with modern technologies</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:youremail@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="profile-image">
+                    <div class="image-container">
+                        <!-- Replace with your actual profile image -->
+                        <div class="placeholder-profile">SK</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content sections - initially hidden, shown based on navigation -->
+            <section id="about-section" class="content-section active">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>I'm Shreyas Kulkarni, a passionate Full Stack Developer with expertise in building modern web applications. I love solving complex problems and creating intuitive, user-friendly interfaces.</p>
+                    <p>My technical journey has equipped me with skills in both frontend and backend technologies, allowing me to deliver complete solutions from concept to deployment.</p>
+                    <div class="tech-stack">
+                        <h3>My Tech Stack</h3>
+                        <div class="tech-icons">
+                            <span><i class="fab fa-html5"></i> HTML5</span>
+                            <span><i class="fab fa-css3-alt"></i> CSS3</span>
+                            <span><i class="fab fa-js"></i> JavaScript</span>
+                            <span><i class="fab fa-react"></i> React</span>
+                            <span><i class="fab fa-node-js"></i> Node.js</span>
+                            <span><i class="fas fa-database"></i> MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects-section" class="content-section">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Todo App</h3>
+                            <div class="project-icons">
+                                <i class="fab fa-react"></i>
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                        </div>
+                        <p>A complete task management application with user authentication, task categories, and priority settings.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>AI Chatbot</h3>
+                            <div class="project-icons">
+                                <i class="fab fa-python"></i>
+                                <i class="fab fa-js"></i>
+                            </div>
+                        </div>
+                        <p>An intelligent conversational AI chatbot that uses natural language processing to provide helpful responses.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Job Portal App</h3>
+                            <div class="project-icons">
+                                <i class="fab fa-react"></i>
+                                <i class="fas fa-database"></i>
+                            </div>
+                        </div>
+                        <p>A job search platform connecting employers and job seekers. Currently in pipeline.</p>
+                        <div class="project-status">
+                            <span class="status-badge">In Progress</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="certifications-section" class="content-section">
+              <h2>Certifications</h2>
+              <div class="cert-scroller">
+                  <div class="cert-container">
+                      <!-- Certificate items - replace with your actual certificates -->
+                      <div class="cert-item">
+                          <div class="cert-image" data-certificate="assets/Cer-2.png">
+                              <img src="/assets/Cer-2.png" alt="Web Development Certificate">
+                              <div class="cert-overlay">
+                                  <span>View Certificate</span>
+                              </div>
+                          </div>
+                          <h4>Full Stack Development</h4>
+                      </div>
+                      <div class="cert-item">
+                          <div class="cert-image" data-certificate="assets/Cer-1.png">
+                              <img src="/assets/Cer-1.png" alt="Gen-Ai Google Cloud">
+                              <div class="cert-overlay">
+                                  <span>View Certificate</span>
+                              </div>
+                          </div>
+                          <h4>Introduction To Gen-Ai</h4>
+                      </div>
+                      <div class="cert-item">
+                          <div class="cert-image" data-certificate="/assets/thumbnail1.png">
+                              <img src="/assets/thumbnail1.png" alt="C/C++/Dsa">
+                              <div class="cert-overlay">
+                                  <span>View Certificate</span>
+                              </div>
+                          </div>
+                          <h4>C,C++,Data Structures And Algorithms</h4>
+                      </div>
+                      <!-- <div class="cert-item">
+                          <div class="cert-image" data-certificate="/assets/Cer-1.png">
+                              <img src="/api/placeholder/320/200" alt="AI-FOR-PRODUCTIVITY">
+                              <div class="cert-overlay">
+                                  <span>View Certificate</span>
+                              </div>
+                          </div>
+                          <h4>Node.js & Express</h4>
+                      </div> -->
+                  </div>
+                  <div class="scroll-arrow left"><i class="fas fa-chevron-left"></i></div>
+                  <div class="scroll-arrow right"><i class="fas fa-chevron-right"></i></div>
+              </div>
+              <!-- Updated modal structure for certificates -->
+              <div id="cert-modal" class="modal">
+                  <div class="modal-content">
+                      <span class="close-modal">&times;</span>
+                      <div id="cert-content-container"></div>
+                  </div>
+              </div>
+          </section>
+
+            <section id="skills-section" class="content-section">
+                <h2>Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-server"></i>
+                                <span>Express</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>MongoDB</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Other</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Responsive Design</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="ai-tools-section" class="content-section">
+                <h2>AI Tools I Use</h2>
+                <div class="ai-tools-grid">
+                    <div class="ai-tool">
+                        <i class="fas fa-robot"></i>
+                        <h3>ChatGPT</h3>
+                        <p>For code assistance and brainstorming solutions</p>
+                    </div>
+                    <div class="ai-tool">
+                        <i class="fas fa-code"></i>
+                        <h3>GitHub Copilot</h3>
+                        <p>For intelligent code completion</p>
+                    </div>
+                    <div class="ai-tool">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Claude</h3>
+                        <p>For advanced language tasks and documentation</p>
+                    </div>
+                    <div class="ai-tool">
+                        <i class="fas fa-image"></i>
+                        <h3>DALL-E</h3>
+                        <p>For generating UI/UX concept images</p>
+                    </div>
+                    <div class="ai-tool">
+                        <i class="fas fa-edit"></i>
+                        <h3>Jasper</h3>
+                        <p>For content creation and optimization</p>
+                    </div>
+                    <div class="ai-tool">
+                        <i class="fas fa-bug"></i>
+                        <h3>Tabnine</h3>
+                        <p>For code predictions and bug detection</p>
+                    </div>
+                    <div class="ai-tool">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>MonkeyLearn</h3>
+                        <p>For text analysis and sentiment tracking</p>
+                    </div>
+                    <div class="ai-tool">
+                        <i class="fas fa-sitemap"></i>
+                        <h3>RunwayML</h3>
+                        <p>For creative asset generation</p>
+                    </div>
+                    <div class="ai-tool">
+                        <i class="fas fa-language"></i>
+                        <h3>DeepL</h3>
+                        <p>For accurate translations</p>
+                    </div>
+                    <div class="ai-tool">
+                        <i class="fas fa-search"></i>
+                        <h3>Perplexity</h3>
+                        <p>For research and information gathering</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="resume-section" class="content-section">
+                <h2>Resume</h2>
+                <div class="resume-container">
+                    <iframe src="resume.pdf" class="resume-frame"></iframe>
+                    <div class="resume-overlay">
+                        <a href="resume.pdf" target="_blank" class="btn btn-primary">View Full Resume</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Side Navigation -->
+        <nav class="side-nav">
+            <div class="nav-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="nav-profile">
+                <div class="nav-profile-image">
+                    <!-- Replace with your actual profile image -->
+                    <div class="placeholder-profile small">SK</div>
+                </div>
+                <h3>Shreyas Kulkarni</h3>
+                <p>Full Stack Developer</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about-section" class="nav-link active" data-section="about-section"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects-section" class="nav-link" data-section="projects-section"><i class="fas fa-code-branch"></i> Projects</a></li>
+                <li><a href="#certifications-section" class="nav-link" data-section="certifications-section"><i class="fas fa-certificate"></i> Certifications</a></li>
+                <li><a href="#skills-section" class="nav-link" data-section="skills-section"><i class="fas fa-cogs"></i> Skills</a></li>
+                <li><a href="#ai-tools-section" class="nav-link" data-section="ai-tools-section"><i class="fas fa-robot"></i> AI Tools</a></li>
+                <li><a href="#resume-section" class="nav-link" data-section="resume-section"><i class="fas fa-file-alt"></i> Resume</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <span>Theme</span>
+                <label class="switch">
+                    <input type="checkbox" id="theme-switch">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </nav>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
