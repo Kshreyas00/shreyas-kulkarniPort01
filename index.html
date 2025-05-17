@@ -3,343 +3,270 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shreyas Kulkarni - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Developer Portfolio</title>
 </head>
 <body>
-    <div class="portfolio-container">
-        <!-- Main Content Area -->
-        <main class="main-content">
-            <header>
-                <div class="logo">
-                    <h1>Shreyas <span>Kulkarni</span></h1>
-                </div>
-                <div class="menu-toggle">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </header>
+    <div class="container">
+        <!-- Navigation Bar -->
+        <nav>
+            <div class="logo">Shreyas<span>Dev</span></div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#ai-tools">AI Tools</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
 
-            <div class="hero-section">
-                <div class="profile-info">
-                    <h2>Full Stack Developer</h2>
-                    <p>Building creative web solutions with modern technologies</p>
-                    <div class="social-links">
-                        <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="mailto:youremail@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
-                        <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <!-- Home Section -->
+        <section id="home">
+            <div class="home-content">
+                <div class="home-text">
+                    <h1>Hello, I'm <span class="highlight">Shreyas Kulkarni</span></h1>
+                    <h2>Full-Stack Devloper</h2>
+                    <p>I build exceptional digital experiences with modern technologies.</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Kshreyas00" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shreyas-kulkarni-22b94022b/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:shreyasdev438@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="cta-button">View My Work</a>
+                        <a href="assets/Shreyas (1).pdf" class="cta-button resume-btn" target="_blank">View Resume <i class="fas fa-file-pdf"></i></a>
                     </div>
                 </div>
-                <div class="profile-image">
-                    <div class="image-container">
-                        <!-- Replace with your actual profile image -->
-                        <div class="placeholder-profile">SK</div>
+                <div class="home-image">
+                    <div class="profile-img-container">
+                        <div class="profile-placeholder">
+                             <img style="width: 100%;" src="assets/shreyasport.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="animated-bg">
+                <div class="shape shape1"></div>
+                <div class="shape shape2"></div>
+                <div class="shape shape3"></div>
+            </div>
+        </section>
 
-            <!-- Content sections - initially hidden, shown based on navigation -->
-            <section id="about-section" class="content-section active">
-                <h2>About Me</h2>
-                <div class="about-content">
-                    <p>I'm Shreyas Kulkarni, a passionate Full Stack Developer with expertise in building modern web applications. I love solving complex problems and creating intuitive, user-friendly interfaces.</p>
-                    <p>My technical journey has equipped me with skills in both frontend and backend technologies, allowing me to deliver complete solutions from concept to deployment.</p>
-                    <div class="tech-stack">
-                        <h3>My Tech Stack</h3>
-                        <div class="tech-icons">
-                            <span><i class="fab fa-html5"></i> HTML5</span>
-                            <span><i class="fab fa-css3-alt"></i> CSS3</span>
-                            <span><i class="fab fa-js"></i> JavaScript</span>
-                            <span><i class="fab fa-react"></i> React</span>
-                            <span><i class="fab fa-node-js"></i> Node.js</span>
-                            <span><i class="fas fa-database"></i> MongoDB</span>
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">ReactJS</div>
+                <div class="skill-card">Problem Solving</div>
+                <div class="skill-card">DSA</div>
+                <div class="skill-card">C</div>
+                <div class="skill-card">C++</div>
+                <div class="skill-card">Python</div>
+                <div class="skill-card">Django</div>
+                <div class="skill-card">Git</div>
+                <div class="skill-card">GitHub</div>
+            </div>
+            <div class="color-changing-text">
+                <p> WEB APP DEVLOPMENT  ||  WEBSITE DEVLOPMENT || SOFTWARE DEVLOPMENT || AI ENTHUSIASTIC.</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="project-placeholder">
+                            <img style="width: 100%;" src="assets/flahscardapp.png" alt="">
+                           
                         </div>
                     </div>
-                </div>
-            </section>
-
-            <section id="projects-section" class="content-section">
-                <h2>Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-header">
-                            <h3>Todo App</h3>
-                            <div class="project-icons">
-                                <i class="fab fa-react"></i>
-                                <i class="fab fa-node-js"></i>
-                            </div>
-                        </div>
-                        <p>A complete task management application with user authentication, task categories, and priority settings.</p>
+                    <div class="project-info">
+                        <h3>FlashCard Student-App</h3>
+                        <p>Developed an interactive educational React app with speech recognition capabilities that provides
+real-time pronunciation feedback for children.
+<br> Implemented efficient state management using React hooks to control all app features including
+flashcard navigation and user feedback.</p>
                         <div class="project-links">
-                            <a href="#" target="_blank" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                            <a href="#" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Source Code</a>
+                            <a href="https://flashcard-stu.netlify.app/" class="project-btn"><i class="fas fa-eye"></i> View Demo</a>
+                            <a href="#" class="project-btn"><i class="fas fa-code"></i> View Source</a>
                         </div>
                     </div>
-                    <div class="project-card">
-                        <div class="project-header">
-                            <h3>AI Chatbot</h3>
-                            <div class="project-icons">
-                                <i class="fab fa-python"></i>
-                                <i class="fab fa-js"></i>
-                            </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="project-placeholder">
+                          <img src="assets/resume-ranker.png" style="width: 100%;" alt="">
+                            
                         </div>
-                        <p>An intelligent conversational AI chatbot that uses natural language processing to provide helpful responses.</p>
+                    </div>
+                    <div class="project-info">
+                        <h3>Resume - Ranker Application</h3>
+                        <p>Built a full-stack web application using Django (Python) for backend and React.js for frontend to rank
+resumes based on job descriptions. <br>Processed and ranked resumes on the backend, returning structured JSON responses containing match
+percentages.
+  </p>
                         <div class="project-links">
-                            <a href="#" target="_blank" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                            <a href="#" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Source Code</a>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-header">
-                            <h3>Job Portal App</h3>
-                            <div class="project-icons">
-                                <i class="fab fa-react"></i>
-                                <i class="fas fa-database"></i>
-                            </div>
-                        </div>
-                        <p>A job search platform connecting employers and job seekers. Currently in pipeline.</p>
-                        <div class="project-status">
-                            <span class="status-badge">In Progress</span>
+                            <a href="https://resume-ranker-six.vercel.app/" class="project-btn"><i class="fas fa-eye"></i> View Demo</a>
+                            <a href="#" class="project-btn"><i class="fas fa-code"></i> View Source</a>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section> 
 
-            <section id="certifications-section" class="content-section">
-              <h2>Certifications</h2>
-              <div class="cert-scroller">
-                  <div class="cert-container">
-                      <!-- Certificate items - replace with your actual certificates -->
-                      <div class="cert-item">
-                          <div class="cert-image" data-certificate="assets/Cer-2.png">
-                              <img src="/assets/Cer-2.png" alt="Web Development Certificate">
-                              <div class="cert-overlay">
-                                  <span>View Certificate</span>
-                              </div>
-                          </div>
-                          <h4>Full Stack Development</h4>
-                      </div>
-                      <div class="cert-item">
-                          <div class="cert-image" data-certificate="assets/Cer-1.png">
-                              <img src="/assets/Cer-1.png" alt="Gen-Ai Google Cloud">
-                              <div class="cert-overlay">
-                                  <span>View Certificate</span>
-                              </div>
-                          </div>
-                          <h4>Introduction To Gen-Ai</h4>
-                      </div>
-                      <div class="cert-item">
-                          <div class="cert-image" data-certificate="/assets/thumbnail1.png">
-                              <img src="/assets/thumbnail1.png" alt="C/C++/Dsa">
-                              <div class="cert-overlay">
-                                  <span>View Certificate</span>
-                              </div>
-                          </div>
-                          <h4>C,C++,Data Structures And Algorithms</h4>
-                      </div>
-                      <!-- <div class="cert-item">
-                          <div class="cert-image" data-certificate="/assets/Cer-1.png">
-                              <img src="/api/placeholder/320/200" alt="AI-FOR-PRODUCTIVITY">
-                              <div class="cert-overlay">
-                                  <span>View Certificate</span>
-                              </div>
-                          </div>
-                          <h4>Node.js & Express</h4>
-                      </div> -->
-                  </div>
-                  <div class="scroll-arrow left"><i class="fas fa-chevron-left"></i></div>
-                  <div class="scroll-arrow right"><i class="fas fa-chevron-right"></i></div>
-              </div>
-              <!-- Updated modal structure for certificates -->
-              <div id="cert-modal" class="modal">
-                  <div class="modal-content">
-                      <span class="close-modal">&times;</span>
-                      <div id="cert-content-container"></div>
-                  </div>
-              </div>
-          </section>
-
-            <section id="skills-section" class="content-section">
-                <h2>Skills</h2>
-                <div class="skills-container">
-                    <div class="skill-category">
-                        <h3>Frontend</h3>
-                        <div class="skill-items">
-                            <div class="skill-item">
-                                <i class="fab fa-html5"></i>
-                                <span>HTML5</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 95%"></div>
-                                </div>
+        <!-- Certificates Section -->
+        <section id="certificates">
+            <h2 class="section-title">My <span class="highlight">Certificates</span></h2>
+            
+            <div class="certificates-wrapper">
+                <button class="arrow left-arrow" aria-label="Previous certificate"><i class="fas fa-chevron-left"></i></button>
+                
+                <div class="certificates-container">
+                    <div class="certificate-card">
+                        <div class="certificate-img">
+                            <img src="./assets/Cer-2.png" alt="Web Development Mastery Certificate">
+                            <div class="certificate-placeholder">
+                                <i class="fas fa-certificate"></i>
                             </div>
-                            <div class="skill-item">
-                                <i class="fab fa-css3-alt"></i>
-                                <span>CSS3</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 90%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fab fa-js"></i>
-                                <span>JavaScript</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 85%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fab fa-react"></i>
-                                <span>React</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 80%"></div>
-                                </div>
+                            <div class="certificate-overlay">
+                                <a href="./assets/Cer-2.png" class="view-certificate-btn" target="_blank">View Certificate</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Backend</h3>
-                        <div class="skill-items">
-                            <div class="skill-item">
-                                <i class="fab fa-node-js"></i>
-                                <span>Node.js</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 80%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-server"></i>
-                                <span>Express</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 75%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-database"></i>
-                                <span>MongoDB</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 70%"></div>
-                                </div>
-                            </div>
+                        <div class="certificate-info">
+                            <h3>C,C++, And Data-Strutures And Algorithms!</h3>
+                            <p>Issued by: MysirG.Com</p>
+                            <p>Date: 4 June 2023 TO 10 December 2023</p>
                         </div>
                     </div>
-                    <div class="skill-category">
-                        <h3>Other</h3>
-                        <div class="skill-items">
-                            <div class="skill-item">
-                                <i class="fab fa-git-alt"></i>
-                                <span>Git</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 85%"></div>
-                                </div>
+                    
+                    <div class="certificate-card">
+                        <div class="certificate-img">
+                            <img src="./assets/thumbnail1.png" alt="Advanced React & Redux Certificate">
+                            <div class="certificate-placeholder">
+                                <i class="fas fa-certificate"></i>
                             </div>
-                            <div class="skill-item">
-                                <i class="fas fa-mobile-alt"></i>
-                                <span>Responsive Design</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 90%"></div>
-                                </div>
+                            <div class="certificate-overlay">
+                                <a href="./assets/thumbnail1.png" class="view-certificate-btn" target="_blank">View Certificate</a>
                             </div>
                         </div>
+                        <div class="certificate-info">
+                            <h3>Introduction To GenAi</h3>
+                            <p>Issued by: Google Claud</p>
+                            <p>Date: 5 jan 2024</p>
+                        </div>
                     </div>
+                    
+                    <div class="certificate-card">
+                        <div class="certificate-img">
+                            <img src="./assets/Cer-3.png" alt="Python Data Structures Certificate">
+                            <div class="certificate-placeholder">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="certificate-overlay">
+                                <a href="./assets/Cer-3.png" class="view-certificate-btn" target="_blank">View Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certificate-info">
+                            <h3>Full-Stack-Devlopment</h3>
+                            <p>Issued by: freeCodeCamp</p>
+                            <p>Date: 11 jan To  8 August 2024</p>
+                        </div>
+                    </div>
+                    
+                  
                 </div>
-            </section>
+                
+                <button class="arrow right-arrow" aria-label="Next certificate"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            
+            <div class="certificate-dots"></div>
+        </section>
 
-            <section id="ai-tools-section" class="content-section">
-                <h2>AI Tools I Use</h2>
-                <div class="ai-tools-grid">
+        <!-- AI Tools Section -->
+        <section id="ai-tools">
+            <h2 class="section-title">AI <span class="highlight">Tools</span></h2>
+            <div class="ai-container">
+                <div class="ai-background">
+                    <div class="ai-particle" id="p1"></div>
+                    <div class="ai-particle" id="p2"></div>
+                    <div class="ai-particle" id="p3"></div>
+                    <div class="ai-particle" id="p4"></div>
+                    <div class="ai-particle" id="p5"></div>
+                </div>
+                <div class="ai-tools-list">
                     <div class="ai-tool">
                         <i class="fas fa-robot"></i>
                         <h3>ChatGPT</h3>
-                        <p>For code assistance and brainstorming solutions</p>
+                        <p>For Basic Tamplate And Biolerplate Codes.</p>
                     </div>
                     <div class="ai-tool">
                         <i class="fas fa-code"></i>
                         <h3>GitHub Copilot</h3>
-                        <p>For intelligent code completion</p>
+                        <p>AI pair programmer for real-time code suggestions</p>
                     </div>
                     <div class="ai-tool">
-                        <i class="fas fa-pencil-alt"></i>
-                        <h3>Claude</h3>
-                        <p>For advanced language tasks and documentation</p>
-                    </div>
-                    <div class="ai-tool">
-                        <i class="fas fa-image"></i>
+                        <i class="fas fa-paint-brush"></i>
                         <h3>DALL-E</h3>
-                        <p>For generating UI/UX concept images</p>
+                        <p>For generating UI design concepts</p>
                     </div>
                     <div class="ai-tool">
-                        <i class="fas fa-edit"></i>
-                        <h3>Jasper</h3>
-                        <p>For content creation and optimization</p>
+                        <i class="fas fa-pen-fancy"></i>
+                        <h3>Grammarly</h3>
+                        <p>For improving documentation quality</p>
                     </div>
                     <div class="ai-tool">
-                        <i class="fas fa-bug"></i>
-                        <h3>Tabnine</h3>
-                        <p>For code predictions and bug detection</p>
-                    </div>
-                    <div class="ai-tool">
-                        <i class="fas fa-chart-line"></i>
-                        <h3>MonkeyLearn</h3>
-                        <p>For text analysis and sentiment tracking</p>
-                    </div>
-                    <div class="ai-tool">
-                        <i class="fas fa-sitemap"></i>
-                        <h3>RunwayML</h3>
-                        <p>For creative asset generation</p>
-                    </div>
-                    <div class="ai-tool">
-                        <i class="fas fa-language"></i>
-                        <h3>DeepL</h3>
-                        <p>For accurate translations</p>
+                        <i class="fas fa-brain"></i>
+                        <h3>TensorFlow.js</h3>
+                        <p>For implementing ML in web applications</p>
                     </div>
                     <div class="ai-tool">
                         <i class="fas fa-search"></i>
                         <h3>Perplexity</h3>
-                        <p>For research and information gathering</p>
+                        <p>For enhanced research capabilities</p>
                     </div>
-                </div>
-            </section>
-
-            <section id="resume-section" class="content-section">
-                <h2>Resume</h2>
-                <div class="resume-container">
-                    <iframe src="resume.pdf" class="resume-frame"></iframe>
-                    <div class="resume-overlay">
-                        <a href="resume.pdf" target="_blank" class="btn btn-primary">View Full Resume</a>
+                    <div class="ai-tool">
+                        <i class="fas fa-clipboard-check"></i>
+                        <h3>Tabnine</h3>
+                        <p>For code completion and suggestions</p>
                     </div>
+                    <div class="ai-tool">
+                        <i class="fas fa-file-code"></i>
+                        <h3>CodeWhisperer</h3>
+                        <p>For automated code generation</p>
+                    </div>
+                   
                 </div>
-            </section>
-        </main>
+            </div>
+        </section>
 
-        <!-- Side Navigation -->
-        <nav class="side-nav">
-            <div class="nav-close">
-                <i class="fas fa-times"></i>
-            </div>
-            <div class="nav-profile">
-                <div class="nav-profile-image">
-                    <!-- Replace with your actual profile image -->
-                    <div class="placeholder-profile small">SK</div>
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">Dev<span>Portfolio</span></div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
                 </div>
-                <h3>Shreyas Kulkarni</h3>
-                <p>Full Stack Developer</p>
+                <div class="footer-copy">
+                    <p>&copy; 2025 Shreyas Kulkarni. All rights reserved.</p>
+                </div>
             </div>
-            <ul class="nav-links">
-                <li><a href="#about-section" class="nav-link active" data-section="about-section"><i class="fas fa-user"></i> About</a></li>
-                <li><a href="#projects-section" class="nav-link" data-section="projects-section"><i class="fas fa-code-branch"></i> Projects</a></li>
-                <li><a href="#certifications-section" class="nav-link" data-section="certifications-section"><i class="fas fa-certificate"></i> Certifications</a></li>
-                <li><a href="#skills-section" class="nav-link" data-section="skills-section"><i class="fas fa-cogs"></i> Skills</a></li>
-                <li><a href="#ai-tools-section" class="nav-link" data-section="ai-tools-section"><i class="fas fa-robot"></i> AI Tools</a></li>
-                <li><a href="#resume-section" class="nav-link" data-section="resume-section"><i class="fas fa-file-alt"></i> Resume</a></li>
-            </ul>
-            <div class="theme-toggle">
-                <span>Theme</span>
-                <label class="switch">
-                    <input type="checkbox" id="theme-switch">
-                    <span class="slider round"></span>
-                </label>
-            </div>
-        </nav>
+        </footer>
     </div>
 
     <script src="script.js"></script>
